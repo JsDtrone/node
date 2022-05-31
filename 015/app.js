@@ -8,8 +8,8 @@ myEmm.addListener('connected', logDataBaseConection);
 myEmm.emit('connected');
 // myEmm.removeListener('connected', logDataBaseConection);
 
-myEmm.on('ms', NEGR => {
-  console.log(NEGR);
+myEmm.on('ms', hey => {
+  console.log(hey);
 });
 
 myEmm.emit('ms', 'kill');
